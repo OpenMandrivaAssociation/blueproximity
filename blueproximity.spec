@@ -12,7 +12,7 @@ Patch0:		blueproximity-fix_paths.diff
 Patch1:		blueproximity-fix-bash-script.diff
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 BuildRequires:	desktop-file-utils gettext
-Requires:	python-configobj python-pybluez  
+Requires:	python-configobj python-pybluez  pygtk2.0-libglade
 
 %description
 Add security to your desktop by automatically locking and unlocking 
