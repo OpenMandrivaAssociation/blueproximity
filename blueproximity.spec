@@ -3,12 +3,12 @@ Version:	1.2.5
 Release:	%mkrel 1 
 Summary:	Detects you via your bluetooth devices and locks/unlocks the screen
 BuildArch:	noarch
-Group:		Applications/Communications
+Group:		Communications
 License:	GPLv2+
 URL:		http://blueproximity.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/blueproximity/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
-Patch0:		blueproximity-fedorization.diff
+Patch0:		blueproximity-fix_paths.diff
 Patch1:		blueproximity-fix-bash-script.diff
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 BuildRequires:	desktop-file-utils gettext
