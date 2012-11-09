@@ -1,0 +1,43 @@
+--- proximity.py	2008-02-14 12:57:16.000000000 -0200
++++ blueproximity-1.py	2008-02-14 23:00:14.000000000 -0200
+@@ -25,8 +25,8 @@
+ ## This value gives us the base directory for language files and icons.
+ # Set this value to './' for svn version
+ # or to '/usr/share/blueproximity/' for packaged version
+-dist_path = './' 
+-
++dist_path = '/usr/share/blueproximity/' 
++pixmaps_path = 'pixmaps/'
+ 
+ # system includes
+ import os
+@@ -42,7 +42,7 @@
+ import gettext
+ 
+ #Get the local directory since we are not installing anything
+-local_path = dist_path + 'LANG/'
++local_path = '/usr/share/locale/'
+ # Init the list of languages to support
+ langs = []
+ #Check the default locale
+@@ -157,15 +157,15 @@
+     
+ 
+ ## The icon used at normal operation and in the info dialog.
+-icon_base = 'blueproximity_base.svg'
++icon_base = pixmaps_path + 'blueproximity_base.svg'
+ ## The icon used at distances greater than the unlock distance.
+-icon_att = 'blueproximity_attention.svg'
++icon_att = pixmaps_path + 'blueproximity_attention.svg'
+ ## The icon used if no proximity is detected.
+-icon_away = 'blueproximity_nocon.svg'
++icon_away = pixmaps_path  + 'blueproximity_nocon.svg'
+ ## The icon used during connection processes and with connection errors.
+-icon_con = 'blueproximity_error.svg'
++icon_con = pixmaps_path + 'blueproximity_error.svg'
+ ## The icon shown if we are in pause mode.
+-icon_pause = 'blueproximity_pause.svg'
++icon_pause = pixmaps_path + 'blueproximity_pause.svg'
+ 
+ 
+ ## This class represents the main configuration window and
