@@ -77,3 +77,15 @@ rm -rf %{buildroot}
 %{_datadir}/pixmaps/%{name}_base.svg
 
 
+
+
+%changelog
+* Tue Sep 08 2009 Michael Scherer <misc@mandriva.org> 1.2.5-1mdv2010.0
++ Revision: 434052
+- submit rpm based on fedora src.rpm
+- add missing requires
+- fix Group
+- fix naming of the fedora patch
+- fix requires
+- import blueproximity
+

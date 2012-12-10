@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BlueProximity
+GenericName=BlueProximity
+Comment=Leave it - it's locked, come back - it's back too...
+Exec=blueproximity
+Icon=blueproximity_base
+Terminal=false
+Type=Application
+Categories=Utility;
