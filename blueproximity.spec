@@ -5,7 +5,7 @@ Summary:	Detects you via your bluetooth devices and locks/unlocks the screen
 BuildArch:	noarch
 Group:		Communications
 License:	GPLv2+
-URL:		http://blueproximity.sourceforge.net/
+URL:		https://blueproximity.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/blueproximity/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
 Patch0:		blueproximity-fix_paths.diff
