@@ -1,6 +1,6 @@
 Name:		blueproximity
 Version:	1.2.5
-Release:	%mkrel 1 
+Release:	2
 Summary:	Detects you via your bluetooth devices and locks/unlocks the screen
 BuildArch:	noarch
 Group:		Communications
